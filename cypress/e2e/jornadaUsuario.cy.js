@@ -4,7 +4,7 @@ describe('Jornadas de usuário', () => {
 
     cy.getByData('botao-login').click();
     cy.getByData('email-input').type('neilton@alura.com');
-    cy.getByData('senha-input').type('123456');
+    cy.getByData('senha-input').type('SGiMfrPC_yofVZU');
     cy.getByData('botao-enviar').click();
 
     cy.location('pathname').should('eq', '/home');
