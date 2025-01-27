@@ -55,3 +55,36 @@ describe('Realizando requisições para a API', () => {
     });
   });
 });
+
+context('Atualizar Usuário', () => {
+  it('PUT /users/:userId', () => {
+    const usuario = {
+      nome: 'John',
+    };
+
+    cy.request({
+      method: 'PUT',
+      url: 'http://localhost:8000/users/c691fd15-dcd5-4f24-89da-cdfa3cef9d67',
+      body: usuario,
+      failOnStatusCode: false,
+    }).then((response) => {
+      expect(response.status).to.eq(200);
+      expect(response.body.nome).to.eq(usuario.nome);
+    });
+  });
+  it('Deve retornar um erro quando o usuário for inválido', () => {
+    const usuario = {
+      nome: 'Nome Inválido',
+    };
+
+    cy.request({
+      method: 'PUT',
+      url: 'http://localhost:8000/users/40a41438-84a6',
+      body: usuario,
+      failOnStatusCode: false,
+    }).then((response) => {
+      expect(response.status).to.eq(404);
+      expect(response.body).to.eq('Not Found');
+    });
+  });
+});
