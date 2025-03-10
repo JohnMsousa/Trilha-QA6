@@ -31,7 +31,98 @@
       "valor": "200",
       "data": "01/03/2023",
       "mes": "Março"
+    },
+    {
+      "id": "8c63472e-0bce-4fb8-a946-1fff6dbd2264",
+      "tipoTransacao": "Depósito",
+      "valor": "100",
+      "data": "27/01/2025",
+      "mes": "Janeiro"
+    },
+    {
+      "id": "55f9efab-b4f6-4238-9862-dedaa51fb063",
+      "tipoTransacao": "Depósito",
+      "valor": "100",
+      "data": "27/01/2025",
+      "mes": "Janeiro"
+    },
+    {
+      "id": "f4a473bf-4be9-463c-b60a-587668d9d84f",
+      "tipoTransacao": "Depósito",
+      "valor": "100",
+      "data": "27/01/2025",
+      "mes": "Janeiro"
+    },
+    {
+      "id": "35663fcf-081a-40e3-81be-8a7aa9835216",
+      "tipoTransacao": "Depósito",
+      "valor": "100",
+      "data": "27/01/2025",
+      "mes": "Janeiro"
+    },
+    {
+      "id": "ae72f811-7cf4-4729-aa98-aebb52855ca5",
+      "tipoTransacao": "Depósito",
+      "valor": "100",
+      "data": "27/01/2025",
+      "mes": "Janeiro"
+    },
+    {
+      "id": "1c3d74b4-b21c-4703-837a-e9f9135343c1",
+      "tipoTransacao": "Depósito",
+      "valor": "100",
+      "data": "27/01/2025",
+      "mes": "Janeiro"
+    },
+    {
+      "id": "3456c24c-6bc7-43d9-a549-3c0ef9a7e7a6",
+      "tipoTransacao": "Depósito",
+      "valor": "100",
+      "data": "04/02/2025",
+      "mes": "Fevereiro"
+    },
+    {
+      "id": "9f2114c3-c278-4028-bfa7-21b704711f23",
+      "tipoTransacao": "Depósito",
+      "valor": "100",
+      "data": "04/02/2025",
+      "mes": "Fevereiro"
+    },
+    {
+      "id": "1fb917c3-f2a2-49d3-b35f-fa2ed564356e",
+      "tipoTransacao": "Depósito",
+      "valor": "100",
+      "data": "04/02/2025",
+      "mes": "Fevereiro"
+    },
+    {
+      "id": "332f6f0b-7980-4d8b-928b-0813f5c1410f",
+      "tipoTransacao": "Depósito",
+      "valor": "100",
+      "data": "10/03/2025",
+      "mes": "Março"
+    },
+    {
+      "id": "6a2f8336-e962-4559-9531-076938da7f6c",
+      "tipoTransacao": "Depósito",
+      "valor": "100",
+      "data": "10/03/2025",
+      "mes": "Março"
+    },
+    {
+      "id": "ce3c97ca-1f7c-4d49-903a-45e8339a4e49",
+      "tipoTransacao": "Transferência",
+      "valor": "80",
+      "data": "10/03/2025",
+      "mes": "Março"
+    },
+    {
+      "id": "e6169b72-879d-4a63-92b4-a35ff93faf9c",
+      "tipoTransacao": "Depósito",
+      "valor": "100",
+      "data": "10/03/2025",
+      "mes": "Março"
     }
   ],
-  "saldo": 2340
+  "saldo": 1020
 }
